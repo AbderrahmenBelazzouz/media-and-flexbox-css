@@ -1,0 +1,98 @@
+<!doctype html>
+<title>Example</title>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+}
+.container { 
+  display: flex;
+  min-height: 100%;
+  }
+  h4{display:block;}
+  p{font-size: 15px;
+  display:block;
+  left:0%;
+  bottom:0%;}
+.red {
+  flex: 0 0 80px;
+  height: 120px;
+  background: red;
+  display: flex;
+  flex-direction: row;
+}
+.green {
+  text-align:center; 
+  display: flex;
+  background: yellow;
+  flex-grow:1;
+}
+  
+  .lightblue {
+  display: flex;
+  background: blue;
+    height: 80px;
+    
+  text-align:left; 
+    align-items:flex-start ;
+  
+    
+  flex-grow:1.5;
+      margin: .5em  .5em;
+}
+  .one{padding:0 40% ;
+}
+    .light {
+  display: flex;
+  background: blue;
+  height: 20px;
+  font-size:15px;
+  flex-grow:1;
+  margin: .5em  .5em;
+}
+
+  
+.blue {
+  background: steelblue;
+  flex-grow:3;
+  display: flex;
+  flex-direction: column;
+  padding: .5em .5em;
+  justify-content: space-around;
+
+  
+}
+.container  {
+  min-height: 100%;
+  font-size: 5vw;
+  padding: 0 .5em;
+  background-color: red;
+  flex-direction: row;
+  flex:1;
+  text-align:center; 
+}
+</style>
+
+<div class="container">
+  
+    <div class="green">Flex-Bandeau</div>
+    <div class="blue">
+      
+      <div class="lightblue" style="margin-bottom: 0;">
+        <div class="one"><h4>info</h4></div>
+        <br>
+       
+        </div>
+      
+       <div class="lightblue" style="margin-top: 0; display:flex;flex-grow:0.5 ; height:30px;">
+       
+        <p> 
+          Ceci est une information <strong>importante</strong></p></div>
+      
+      <div class="light">Info 2</div>
+          <div class="light">Info 3</div>
+      Flex-Contenu
+    </div>
+  
+  
+</div>
